@@ -6,7 +6,6 @@ import { useState } from 'react'
 
 const INITIAL_GAME_BOARD = Array(9).fill(null)
 
-
 function TicTacToe() {
   const [gameBoard, setGameBoard] = useState(INITIAL_GAME_BOARD)
   const [isGameFinished, setIsGameFinished] = useState(false)
