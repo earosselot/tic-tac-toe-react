@@ -1,9 +1,9 @@
 import './Header.css'
 
-function Header() {
+function Header({ isGameFinished }) {
   return (
     <header className="Header">
-      Game finished!
+      <h2>{isGameFinished && 'Game Finished!'}</h2>
     </header>
   )
 }

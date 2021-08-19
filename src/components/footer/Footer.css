@@ -2,3 +2,17 @@
 .Footer {
     padding: 15px;
 }
+
+button {
+    font-size: 1em;
+    border-radius: 5px;
+    border: 0;
+    padding: 6px 10px;
+    background-color: #BF4158;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #d2556c;
+    cursor: pointer;
+}
