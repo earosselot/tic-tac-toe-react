@@ -1,0 +1,33 @@
+
+.GameBoard {
+    margin: 10px auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    max-width: 320px;
+    height: 320px;
+}
+
+.gamebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brd-left {
+    border-left: 2px solid black;
+}
+
+.brd-top {
+    border-top: 2px solid black;
+}
+
+.brd-right {
+    border-right: 2px solid black;
+}
+
+.brd-bottom {
+    border-bottom: 2px solid black;
+}
